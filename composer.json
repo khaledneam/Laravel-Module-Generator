@@ -14,16 +14,15 @@
                 "khaledneam\\ModuleGenerator\\ModuleGeneratorServiceProvider"
             ],
             "aliases": {
-                "PackageAlias": "khaledneam\\modulegenerator\\Facades\\PackageAlias"
+                "PackageAlias": "khaledneam\\ModuleGenerator\\Facades\\PackageAlias"
             }
         }
     },
     "require": {
         "php": ">=7.3",
-        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0",
-        "khaledneam/laravel-module-generator": "dev-main"
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0"
     },
-   "minimum-stability": "dev",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
         {
@@ -31,7 +30,4 @@
             "url": "https://github.com/khaledneam/Laravel-Module-Generator.git"
         }
     ]
-
-
-
 }
