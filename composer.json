@@ -1,0 +1,25 @@
+{
+    "name": "khaledneam/module-generator",
+    "description": "A Laravel package to generate module structures.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "khaledneam\\ModuleGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "khaledneam\\ModuleGenerator\\ModuleGeneratorServiceProvider"
+            ],
+            "aliases": {
+                "PackageAlias": "khaledneam\\modulegenerator\\Facades\\PackageAlias"
+            }
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0"
+    }
+}
