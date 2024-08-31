@@ -17,7 +17,9 @@ A Laravel package to quickly generate modular components such as Controllers, Mo
    ```bash
    composer require khaledneam/module-generator dev-main --dev
    ```
-2. Update composer.json
+2. Ensure you also add the **Modules** directory in the root of your Laravel project
+3. If you do not have **helpers.php** in your app directory, create it as an empty file
+4. Update composer.json
 ```bash
 {
     "autoload": {
