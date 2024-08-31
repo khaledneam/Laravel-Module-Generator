@@ -1,5 +1,5 @@
 {
-    "name": "khaledneam/module-generator",
+    "name": "khaledneam/laravel-module-generator",
     "description": "A Laravel package to generate module structures.",
     "type": "library",
     "license": "MIT",
