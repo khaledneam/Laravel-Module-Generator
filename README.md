@@ -15,12 +15,31 @@ A Laravel package to quickly generate modular components such as Controllers, Mo
 1. **Install the package via Composer:**
 
    ```bash
-   composer require khaledneam/laravel-module-generator
+   composer require khaledneam/module-generator dev-main --dev
+   ```
+2. Update composer.json
+```bash
+{
+    "autoload": {
+        "psr-4": {
+            "Modules\\": "Modules/"
+        }
+    },
+    "files": [
+        "app/helpers.php"
+    ]
+}
 
-2.Publish the configuration file (if needed):
- ```bash
-php artisan vendor:publish --provider="Khaledneam\ModuleGenerator\ModuleGeneratorServiceProvider"
+
 ```
+Then, update Composer’s autoload files:
+```bash
+composer dump-autoload
+
+```
+
+
+
 
 Usage
 To create a new module, use the following Artisan command:
